@@ -1,0 +1,23 @@
+{
+  "name": "harlequin",
+  "version": "1.0.0",
+  "description": "Live Music Programming Environment",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/harlequin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/harlequin/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/harlequin#readme",
+  "dependencies": {
+    "electron": "^1.7.10"
+  }
+}
