@@ -1,0 +1,4073 @@
+[
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 0,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 0,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 1,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 0,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 2,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 0,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 3,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 1,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 4,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 1,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 5,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 1,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 6,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 2,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 7,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 2,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 8,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 2,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 9,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 3,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 10,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 3,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 11,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 3,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 12,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 4,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 13,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 4,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 14,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 4,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 15,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 5,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 16,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 5,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 17,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 5,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 18,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 6,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 19,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 6,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 20,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 6,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 21,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 7,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 22,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 7,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 23,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 7,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 24,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 8,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 25,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 8,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 26,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 9,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 27,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 9,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 28,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 9,
+    "tags": [
+      "playing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 29,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 10,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 30,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 10,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 31,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 10,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 32,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 11,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 33,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 11,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 34,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 11,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 35,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 12,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 36,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 12,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 37,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 12,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 38,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 13,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 39,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 13,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 40,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 13,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 41,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 14,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 42,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 14,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 43,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 14,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 44,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 15,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 45,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 15,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 46,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 15,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 47,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 16,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 48,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 16,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 49,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 17,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 50,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 17,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 51,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 17,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 52,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 18,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 53,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 18,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 54,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 18,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 55,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 19,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 56,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 19,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 57,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 19,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 58,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 20,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 59,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 20,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 60,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 20,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 61,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 21,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 62,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 21,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 63,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 21,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 64,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 22,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 65,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 22,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 66,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 22,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 67,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 23,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 68,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 23,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 69,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 23,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 70,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 24,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 71,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 24,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 72,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 25,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 73,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 25,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 74,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 25,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 75,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 26,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 76,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 26,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 77,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 26,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 78,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 27,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 79,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 27,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 80,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 27,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 81,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 28,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 82,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 28,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 83,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 28,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 84,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 29,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 85,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 29,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 86,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 29,
+    "tags": [
+      "playing",
+      "open"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 87,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 30,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 88,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 30,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 89,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 30,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 90,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 31,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 91,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 31,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 92,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 31,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 93,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 32,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 94,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 32,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 95,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 32,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 96,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 33,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 97,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 33,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 98,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 34,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 99,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 34,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 100,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 34,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 101,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 35,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 102,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 35,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 103,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 35,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 104,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 36,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 105,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 36,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 106,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 36,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 107,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 37,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 108,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 37,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 109,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 37,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 110,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 38,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 111,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 38,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 112,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 38,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 113,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 39,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 114,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 39,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 115,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 39,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 116,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 40,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 117,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 40,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 118,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 40,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 119,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 41,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 120,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 41,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 121,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 42,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 122,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 42,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 123,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 42,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 124,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 43,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 125,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 43,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 126,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 43,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 127,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 44,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 128,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 44,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 129,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 44,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 130,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 45,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 131,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 45,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 132,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 45,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 133,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 46,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 134,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 46,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 135,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 46,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 136,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 47,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 137,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 47,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 138,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 47,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 139,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 48,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 140,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 48,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 141,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 48,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 142,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 49,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 143,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 49,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 144,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 50,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 145,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 50,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 146,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 50,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 147,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 51,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 148,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 51,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 149,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 51,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 150,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 52,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 151,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 52,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 152,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 52,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 153,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 53,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 154,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 53,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 155,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 53,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 156,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 54,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 157,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 54,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 158,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 54,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 159,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 55,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 160,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 55,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 161,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 55,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 162,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 56,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 163,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 56,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 164,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 56,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 165,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 57,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 166,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 57,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 167,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 57,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 168,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 58,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 169,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 58,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 170,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 59,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 171,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 59,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 172,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 59,
+    "tags": [
+      "playing",
+      "open",
+      "dings"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 173,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 60,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 174,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 60,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 175,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 60,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 176,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 61,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 177,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 61,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 178,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 61,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 179,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 62,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 180,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 62,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 181,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 62,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 182,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 63,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 183,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 63,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 184,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 63,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 185,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 64,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 186,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 64,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 187,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 64,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 188,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 65,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 189,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 65,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 190,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 65,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 191,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 66,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 192,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 66,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 193,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 67,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 194,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 67,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 195,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 67,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 196,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 68,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 197,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 68,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 198,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 68,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 199,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 69,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 200,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 69,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 201,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 69,
+    "tags": [
+      "playing",
+      "open",
+      "dings",
+      "rise"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 202,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 70,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 203,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 70,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 204,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 70,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 205,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 71,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 206,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 71,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 207,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 71,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 208,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 72,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 209,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 72,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 210,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 72,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 211,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 73,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 212,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 73,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 213,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 73,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 214,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 74,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 215,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 74,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 216,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 75,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 217,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 75,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 218,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 75,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 219,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 76,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 220,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 76,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 221,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 76,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 222,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 77,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 223,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 77,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 224,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 77,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 225,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 78,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 226,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 78,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 227,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 78,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 228,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 79,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 229,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 79,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 230,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 79,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 231,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 80,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 232,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 80,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 233,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 80,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 234,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 81,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 235,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 81,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 236,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 81,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 237,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 82,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 238,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 82,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 239,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 82,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 240,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 83,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 241,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 83,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 242,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 84,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 243,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 84,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 244,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 84,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 245,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 85,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 246,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 85,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 247,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 85,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 248,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 86,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 249,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 86,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 250,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 86,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 251,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 87,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 252,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 87,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 253,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 87,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 254,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 88,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 255,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 88,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 256,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 88,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 257,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 89,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 258,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 89,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 259,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 89,
+    "tags": [
+      "playing",
+      "dings",
+      "drop",
+      "voices"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 260,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 90,
+    "tags": [
+      "playing",
+      "voices",
+      "resume",
+      "ending"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 261,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 90,
+    "tags": [
+      "playing",
+      "voices",
+      "resume",
+      "ending"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 262,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 90,
+    "tags": [
+      "playing",
+      "voices",
+      "resume",
+      "ending"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 263,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 91,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 264,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 91,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 265,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 92,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 266,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 92,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 267,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 92,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 268,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 93,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 269,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 93,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 270,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 93,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 271,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 94,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 272,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 94,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 273,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 94,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 274,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 95,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 275,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 95,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 276,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 95,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 277,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 96,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 278,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 96,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 279,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 96,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 280,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 97,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 281,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 97,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 282,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 97,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 283,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 98,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 284,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 98,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 285,
+    "bars": 4,
+    "bar": 2,
+    "barPercent": 50,
+    "songPercent": 98,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 286,
+    "bars": 4,
+    "bar": 3,
+    "barPercent": 75,
+    "songPercent": 99,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 287,
+    "bars": 4,
+    "bar": 0,
+    "barPercent": 0,
+    "songPercent": 99,
+    "tags": [
+      "playing",
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  },
+  {
+    "bpm": 96,
+    "beats": 288,
+    "beat": 288,
+    "bars": 4,
+    "bar": 1,
+    "barPercent": 25,
+    "songPercent": 100,
+    "tags": [
+      "resume",
+      "ending",
+      "close",
+      "closing"
+    ]
+  }
+]
