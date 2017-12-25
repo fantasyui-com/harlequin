@@ -68,7 +68,7 @@ Links to original samples:
 * `:guit_harmonics` - http://freesound.org/people/BStateham/sounds/141524/<
 * `:guit_e_fifths` - http://freesound.org/people/Sub-d/sounds/46990/
 * `:guit_e_slide` - http://freesound.org/people/Suva/sounds/2410/
-* `:guit_em9` - http://www.freesound.org/people/Sub-d/sounds/46992/ 
+* `:guit_em9` - http://www.freesound.org/people/Sub-d/sounds/46992/
 
 
 ## Misc
@@ -107,7 +107,7 @@ Links to original samples:
 * `:bass_hard_c` - http://freesound.org/people/ani_music/sounds/165309/
 * `:bass_thick_c` - http://freesound.org/people/ani_music/sounds/165314/
 * `:bass_trance_c` - http://freesound.org/people/ani_music/sounds/165329/
-* `:bass_drop_c` - http://freesound.org/people/ani_music/sounds/165320/ 
+* `:bass_drop_c` - http://freesound.org/people/ani_music/sounds/165320/
 * `:bass_woodsy_c` - http://freesound.org/people/ani_music/sounds/165322/
 * `:bass_voxy_c` - http://freesound.org/people/ani_music/sounds/165325/
 * `:bass_voxy_hit_c` - http://freesound.org/people/ani_music/sounds/165327/

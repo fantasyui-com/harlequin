@@ -19,6 +19,7 @@
   "homepage": "https://github.com/fantasyui-com/harlequin#readme",
   "dependencies": {
     "electron": "^1.7.10",
+    "oneof": "^1.0.1",
     "web-audio-daw": "^2.7.1"
   }
 }

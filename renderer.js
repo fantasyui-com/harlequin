@@ -5,8 +5,11 @@
 const pkg = require(__dirname + '/package.json');
 const valkyrie = require(__dirname + '/valkyrie.json');
 
+const samples = require(__dirname + '/wave_modules/sonic-samples/index.json');
+
 const EventEmitter = require('events');
 const fs = require('fs');
+const oneof = require('oneof');
 const path = require('path');
 class MyEmitter extends EventEmitter {}
 const emitter = new MyEmitter();
@@ -18,14 +21,13 @@ $(function(){
 });
 
 
-$(function(){
 
 
 
 
-  const p1 = (name) => {
+  const p1 = (file) => {
     var wad = new Wad({
-        source       : `wave_modules/sonic-samples/${name}.flac`,
+        source       : file,
         panning      : [0, 1, 10],
         panningModel : 'HRTF',
         env     : {      // This is the ADSR envelope.
@@ -38,9 +40,9 @@ $(function(){
     });
     wad.play()
   }
-  const p2 = (name) => {
+  const p2 = (file) => {
     var wad = new Wad({
-        source       : `wave_modules/sonic-samples/${name}.flac`,
+        source       : file,
         panning      : [10, 1, 0],
         panningModel : 'HRTF',
         env     : {      // This is the ADSR envelope.
@@ -54,40 +56,40 @@ $(function(){
     wad.play()
   }
 
-
-  //p1('bass_trance_c')
-
-
-
-
-  // Start the game loop
-  // const songIntervalId = setInterval(songRun, (1000*60) / valkyrie[0].bpm );
-
-
-  emitter.on('sound', (beat) => {
-
-    // console.log(JSON.stringify( beat ));
-
-    if(beat.bar === 0) p2('perc_snap');
-    if(beat.bar === 1) p1('bass_drop_c');
-    if(beat.bar === 2) p2('perc_snap2');
-    if(beat.bar === 3) p1('elec_filt_snare');
-
-    if(beat.bar === 1) p1('elec_pop');
-    if(beat.bar === 2) p2('elec_pop');
-
-    if( beat.bar === 0 && contains(beat.tags, 'open') ) p1('bass_hard_c');
-    if( beat.bar === 1 && contains(beat.tags, 'dings') ) p1('tabla_ghe2');
-    if( beat.bar === 2 && contains(beat.tags, 'dings') ) p2('tabla_ghe3');
-    if( beat.bar === 3 && contains(beat.tags, 'dings') ) p1('tabla_ghe4');
-
-    if( contains(beat.tags, 'rise') ) p1('tabla_ghe4');
-
-
-  });
-
-
-});
+//
+//   //p1('bass_trance_c')
+//
+//
+//
+//
+//   // Start the game loop
+//   // const songIntervalId = setInterval(songRun, (1000*60) / valkyrie[0].bpm );
+//
+//
+//   emitter.on('sound', (beat) => {
+//
+//     // console.log(JSON.stringify( beat ));
+//
+//     if(beat.bar === 0) p2('perc_snap');
+//     if(beat.bar === 1) p1('bass_drop_c');
+//     if(beat.bar === 2) p2('perc_snap2');
+//     if(beat.bar === 3) p1('elec_filt_snare');
+//
+//     if(beat.bar === 1) p1('elec_pop');
+//     if(beat.bar === 2) p2('elec_pop');
+//
+//     if( beat.bar === 0 && contains(beat.tags, 'open') ) p1('bass_hard_c');
+//     if( beat.bar === 1 && contains(beat.tags, 'dings') ) p1('tabla_ghe2');
+//     if( beat.bar === 2 && contains(beat.tags, 'dings') ) p2('tabla_ghe3');
+//     if( beat.bar === 3 && contains(beat.tags, 'dings') ) p1('tabla_ghe4');
+//
+//     if( contains(beat.tags, 'rise') ) p1('tabla_ghe4');
+//
+//
+//   });
+//
+//
+// });
 
 //
 // /* * *
@@ -121,8 +123,9 @@ const store = new Vuex.Store({
 
   state: {
     position: 0,
-    sound:valkyrie[0],
+    sound:valkyrie.data[0],
     song: valkyrie,
+    samples,
   },
 
   getters: {
@@ -149,8 +152,8 @@ const store = new Vuex.Store({
 
     increment (state) {
       state.position++;
-      if((state.position+1)>state.song.length) state.position = 0;
-      state.sound = state.song[state.position];
+      if((state.position+1)>state.song.data.length) state.position = 0;
+      state.sound = state.song.data[state.position];
       emitter.emit('sound', state.sound)
     }
 
@@ -161,7 +164,7 @@ const store = new Vuex.Store({
       setInterval(() => {
         commit('increment')
 
-      }, (1000*60) / valkyrie[0].bpm)
+      }, (1000*60) / valkyrie.meta.bpm)
     }
   }
 
@@ -176,21 +179,216 @@ const store = new Vuex.Store({
 
 
 
-const Beat = {
-  template: `<div>
-
-  <div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="songPercent" aria-valuemin="0" aria-valuemax="100" v-bind:style="{ width: songPercent + '%' }"></div>
+const ProgressCard = {
+  template: `
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">{{title}} <span class="text-muted">by {{author}}</span></h4>
+      <p class="card-text">
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated pa-1" role="progressbar" :aria-valuenow="percent" aria-valuemin="0" aria-valuemax="100" :style="{ width: percent + '%' }"><span v-show="percent>9">{{percent}}%</span></div>
+      </div>
+      </p>
+      <p class="card-text"><small class="text-muted">Progress {{percent}}%</small></p>
+    </div>
   </div>
+  `,
+  computed: {
+    title () {
+      return this.$store.state.song.meta.title
+    },
+    author () {
+      return this.$store.state.song.meta.author
+    },
+    percent () {
+      return this.$store.state.sound.songPercent
+    },
+  }
+}
 
-  {{ position }}:{{bar}}, {{ tags }}
-  </div>`,
+
+
+
+const MeasureCard = {
+  template: `
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title"> <span class="text-muted"> {{bars}} Measures</span>, Bar {{bar}}</h4>
+      <p class="card-text">
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated pa-1" role="progressbar" :aria-valuenow="percent" aria-valuemin="0" aria-valuemax="100" :style="{ width: percent + '%' }"><span v-show="percent>9">{{percent}}%</span></div>
+      </div>
+      </p>
+      <p class="card-text"><small class="text-muted">Measure Progress {{percent}}%</small></p>
+    </div>
+  </div>
+  `,
+  computed: {
+    bar () {
+      return this.$store.state.sound.bar
+    },
+    bars () {
+      return this.$store.state.song.meta.bars
+    },
+    percent () {
+      return this.$store.state.sound.barPercent
+    },
+  }
+}
+
+
+
+
+const TagCard = {
+  template: `
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Tag State</h4>
+      <p class="card-text">
+        <span v-for="tag in tags">
+          <span class="text-uppercase d-inline-block badge badge-pill badge-success py-2 px-3 m-1">{{tag}}</span>
+        </span>
+      </p>
+      <p class="card-text"><small class="text-muted">Total {{count}}</small></p>
+    </div>
+  </div>
+  `,
+  computed: {
+
+    tags () {
+      return this.$store.state.sound.tags
+    },
+    count () {
+      return this.$store.state.sound.tags.length
+    },
+  }
+}
+
+const SampleCard = {
+  template: `
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Sample Card</h4>
+      <p class="card-text">
+
+      <form>
+
+
+        <div class="form-row">
+
+          <div class="col">
+            <select multiple class="form-control" v-model="selectedTags">
+               <option v-for="tag in tags">{{tag}}</option>
+
+            </select>
+          </div>
+
+          <div class="col">
+            <select multiple class="form-control" v-model="selectedBars">
+               <option v-for="bar in bars">{{bar}}</option>
+            </select>
+          </div>
+
+          <div class="col">
+            <select multiple class="form-control" v-model="selectedSamples">
+               <option v-for="sample in samples" :value="sample.file">{{sample.name}}</option>
+            </select>
+          </div>
+
+        </div>
+      </form>
+
+      </p>
+      <p class="card-text"><small class="text-muted">Total {{count}}</small></p>
+    </div>
+  </div>
+  `,
+
+  data: function() {
+    return {
+        selectedTags: [],
+        selectedBars: [],
+        selectedSamples: [],
+    }
+  },
 
   computed: {
 
-    songPercent () {
-      return this.$store.state.sound.songPercent
+    tags () {
+      return this.$store.state.song.meta.tags
     },
+    samples () {
+      return this.$store.state.samples.data
+    },
+    bars () {
+      const repeat = count => {const response = []; for(var i=0;i<count;i++){response.push(i)}; return response;}
+      return repeat(this.$store.state.song.meta.bars)
+    },
+    count () {
+      return this.$store.state.sound.tags.length
+    },
+  },
+
+  created() {
+    const intersection = (a, b) => { const s = new Set(b); return a.filter(x => s.has(x)); };
+
+    emitter.on('sound', (beat) => {
+
+      let barMatch = false;
+      let tagMatch = false;
+      // if within my tags, is the beat that arrived via emitter...
+      if( this.selectedBars && this.selectedBars.map(i=>parseInt(i)).indexOf( beat.bar ) !== -1 ){
+        barMatch = true;
+      }
+      if( this.selectedTags && (intersection(this.selectedTags, beat.tags).length == this.selectedTags.length) ){
+        tagMatch = true;
+      }
+
+      if(barMatch && tagMatch && this.selectedSamples.length){
+
+        //this.selectedSamples.forEach(sample=>p1(sample))
+        p1(oneof(this.selectedSamples))
+
+
+      }
+      // console.log(JSON.stringify( beat ));
+
+      // if(beat.bar)
+      //
+      // if(beat.bar === 0) p2('perc_snap');
+      // if(beat.bar === 1) p1('bass_drop_c');
+      // if(beat.bar === 2) p2('perc_snap2');
+      // if(beat.bar === 3) p1('elec_filt_snare');
+      //
+      // if(beat.bar === 1) p1('elec_pop');
+      // if(beat.bar === 2) p2('elec_pop');
+      //
+      // if( beat.bar === 0 && contains(beat.tags, 'open') ) p1('bass_hard_c');
+      // if( beat.bar === 1 && contains(beat.tags, 'dings') ) p1('tabla_ghe2');
+      // if( beat.bar === 2 && contains(beat.tags, 'dings') ) p2('tabla_ghe3');
+      // if( beat.bar === 3 && contains(beat.tags, 'dings') ) p1('tabla_ghe4');
+      //
+      // if( contains(beat.tags, 'rise') ) p1('tabla_ghe4');
+
+
+    });
+  }
+
+}
+
+
+
+
+
+
+const Beat = {
+  template: `<span>
+  {{ position }}:{{bar}}, {{ tags }}
+  </span>`,
+
+  computed: {
+
+
     bar () {
       return this.$store.state.sound.bar
     },
@@ -213,11 +411,47 @@ const app = new Vue({
 
   store,
 
-  components: { Beat },
+  components: {
+    ProgressCard,
+    MeasureCard,
+    TagCard,
+    SampleCard,
+  },
 
   template: `
-    <div class="app border border-success p-3 m-3">
-      Vuex Beat: <beat></beat>
+
+    <div class="container">
+
+    <div class="row py-3">
+    <div class="col py-3">
+    <div class="card-deck">
+      <progress-card></progress-card>
+      <measure-card></measure-card>
+    </div>
+    </div>
+    </div>
+
+    <div class="row py-3">
+    <div class="col py-3">
+    <div class="card-deck">
+      <tag-card></tag-card>
+    </div>
+    </div>
+    </div>
+
+    <div class="row py-3">
+    <div class="col py-3">
+    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+    </div>
+    </div>
+
     </div>
   `
 
