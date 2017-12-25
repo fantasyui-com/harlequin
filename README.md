@@ -1,6 +1,8 @@
 # harlequin
 Live Music Programming Environment
 
+![](screenshot.png)
+
 # Howto Doit Right
 
 First define an atmosphere, nice and airy, little scary.
