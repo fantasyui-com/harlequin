@@ -5,7 +5,7 @@
 const pkg = require(__dirname + '/package.json');
 const valkyrie = require(__dirname + '/valkyrie.json');
 
-const samples = require(__dirname + '/wave_modules/sonic-samples/index.json');
+const samples = require(__dirname + '/node_modules/ultrasonic/index.json');
 
 const EventEmitter = require('events');
 const fs = require('fs');
@@ -23,9 +23,44 @@ $(function(){
 
 
 
+var mixerTrack = new Wad.Poly({
+
+  recConfig : { // The Recorder configuration object. The only required property is 'workerPath'.
+      workerPath : 'node_modules/web-audio-daw/src/Recorderjs/recorderWorker.js' // The path to the Recorder.js web worker script.
+  },
+
+  compressor : {
+      attack    : .003, // The amount of time, in seconds, to reduce the gain by 10dB. This parameter ranges from 0 to 1.
+      knee      : 30,   // A decibel value representing the range above the threshold where the curve smoothly transitions to the "ratio" portion. This parameter ranges from 0 to 40.
+      ratio     : 12,   // The amount of dB change in input for a 1 dB change in output. This parameter ranges from 1 to 20.
+      release   : .25,  // The amount of time (in seconds) to increase the gain by 10dB. This parameter ranges from 0 to 1.
+      threshold : -24,  // The decibel value above which the compression will start taking effect. This parameter ranges from -100 to 0.
+  },
+
+  tuna   : {
+
+      Chorus : {
+          intensity: 0.8,  //0 to 1
+          rate: 4,         //0.001 to 8
+          stereoPhase: 160,  //0 to 180
+          bypass: 0
+      }
+  },
+
+  filter  : {
+      type      : 'lowpass',
+      frequency : 700,
+      q         : 3
+  },
+
+  panning : 1
+})
+
+
 
 
   const p1 = (file) => {
+
     var wad = new Wad({
         source       : file,
         panning      : [0, 1, 10],
@@ -38,6 +73,7 @@ $(function(){
               release : .4     // Time in seconds from the end of the hold period to zero volume, or from calling stop() to zero volume.
           },
     });
+    mixerTrack.add(wad)
     wad.play()
   }
   const p2 = (file) => {
@@ -53,6 +89,7 @@ $(function(){
               release : .4     // Time in seconds from the end of the hold period to zero volume, or from calling stop() to zero volume.
           },
     });
+    mixerTrack.add(wad)
     wad.play()
   }
 
@@ -152,7 +189,10 @@ const store = new Vuex.Store({
 
     increment (state) {
       state.position++;
-      if((state.position+1)>state.song.data.length) state.position = 0;
+      if((state.position+1)>state.song.data.length) {
+        state.position = 0;
+        emitter.emit('song-end')
+      }
       state.sound = state.song.data[state.position];
       emitter.emit('sound', state.sound)
     }
@@ -246,7 +286,7 @@ const TagCard = {
       <h4 class="card-title">Tag State</h4>
       <p class="card-text">
         <span v-for="tag in tags">
-          <span class="text-uppercase d-inline-block badge badge-pill badge-success py-2 px-3 m-1">{{tag}}</span>
+          <span class="text-uppercase d-inline-block badge badge-pill badge-secondary py-2 px-3 m-1">{{tag}}</span>
         </span>
       </p>
       <p class="card-text"><small class="text-muted">Total {{count}}</small></p>
@@ -262,6 +302,89 @@ const TagCard = {
       return this.$store.state.sound.tags.length
     },
   }
+}
+
+const RecordCard = {
+  template: `
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Recorder</h4>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+
+       <button v-show="recording === false"   v-on:click="record" type="button" class="btn btn-secondary" title="Start Recording"><i class="fas fa-3x fa-microphone"></i></button>
+       <button v-show="recording" type="button" class="btn btn-danger" title="Recording in progress, click save when done"><i class="fas fa-3x fa-microphone"></i></button>
+
+       <button   v-show="recording === true" v-on:click="save" type="button" class="btn btn-success" title="Stop Recording and Save"><i class="fas fa-3x fa-save"></i></button>
+       <button v-show="recording === false"   type="button" class="btn btn-secondary" title="Record something before saving"><i class="fas fa-3x fa-save"></i></button>
+
+     </div>
+
+    </div>
+  </div>
+  `,
+  data: function() {
+    return {
+        recording: false,
+    }
+  },
+  methods: {
+
+    record: function () {
+      this.recording = true;
+      mixerTrack.rec.record()
+      emitter.on('song-end', () => {
+        if(this.recording) this.save();
+      });
+
+    },
+
+    save: function () {
+      this.recording = false;
+      mixerTrack.rec.exportWAV(function(wavBlob,x){
+        console.log(wavBlob)
+
+        // var foo = new Uint8Array( wavBlob );
+        // console.log(foo);
+        //
+        // //var buf = Buffer.from( );
+        // var buffer = Buffer.from( new Uint8Array(wavBlob) );
+        // console.log(buffer);
+
+
+        var reader = new FileReader();
+        reader.addEventListener("loadend", function() {
+           // reader.result contains the contents of blob as a typed array
+
+        var buffer = new Buffer(reader.result, "binary");
+
+         fs.writeFile("test.wav", buffer, function(err) {
+           if(err) {
+             console.log("err", err);
+           } else {
+             //return res.json({'status': 'success'});
+           }
+         });
+
+       });
+       reader.readAsArrayBuffer(wavBlob);
+
+
+
+      })
+    },
+  },
+
+  computed: {
+
+    tags () {
+      return this.$store.state.sound.tags
+    },
+    count () {
+      return this.$store.state.sound.tags.length
+    },
+  }
+
 }
 
 const SampleCard = {
@@ -416,6 +539,7 @@ const app = new Vue({
     MeasureCard,
     TagCard,
     SampleCard,
+    RecordCard,
   },
 
   template: `
@@ -435,6 +559,7 @@ const app = new Vue({
     <div class="col py-3">
     <div class="card-deck">
       <tag-card></tag-card>
+      <record-card></record-card>
     </div>
     </div>
     </div>
