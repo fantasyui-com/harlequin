@@ -163,7 +163,25 @@ const store = new Vuex.Store({
     sound:valkyrie.data[0],
     song: valkyrie,
     samples,
+    instruments:[
+      {"debug":false, "name":"Ambience","selectedTags":["playing"],"selectedBars":[0],"selectedSamples":["node_modules/ultrasonic/ambi_haunted_hum.flac","node_modules/ultrasonic/ambi_lunar_land.flac"]},
+      {"debug":false, "name":"Kick","selectedTags":["playing"],"selectedBars":["0","2","4","6"],"selectedSamples":["node_modules/ultrasonic/elec_blip.flac","node_modules/ultrasonic/elec_blip2.flac"]},
+      {"debug":false, "name":"Snare","selectedTags":["playing"],"selectedBars":[1,3,5,7],"selectedSamples":["node_modules/ultrasonic/bd_ada.flac","node_modules/ultrasonic/bd_fat.flac"]},
+      {"debug":false, "name":"Drums","selectedTags":["playing"],"selectedBars":[0,1,2,5,7],"selectedSamples":["node_modules/ultrasonic/bd_tek.flac","node_modules/ultrasonic/bd_zum.flac","node_modules/ultrasonic/drum_bass_hard.flac"]},
+
+      {"debug":false,"name":"Sample #1","selectedTags":["playing"],"selectedBars":[0,2,4,6],"selectedSamples":["node_modules/ultrasonic/elec_blup.flac","node_modules/ultrasonic/elec_fuzz_tom.flac","node_modules/ultrasonic/elec_plip.flac","node_modules/ultrasonic/elec_tick.flac","node_modules/ultrasonic/elec_twip.flac","node_modules/ultrasonic/misc_crow.flac"]},
+      {debug:false, "name":"Sample #2", "selectedTags":["playing"], "selectedBars":[0,2,4,6], "selectedSamples":[] },
+      {debug:false, "name":"Sample #3", "selectedTags":["playing"], "selectedBars":[1,3,5,7], "selectedSamples":[] },
+      {debug:false, "name":"Sample #4", "selectedTags":["playing"], "selectedBars":[0,2,4,6], "selectedSamples":[] },
+      {debug:false, "name":"Sample #5", "selectedTags":["playing"], "selectedBars":[1,3,5,7], "selectedSamples":[] },
+      {debug:false, "name":"Sample #6", "selectedTags":["playing"], "selectedBars":[0,2,4,6], "selectedSamples":[] },
+      {debug:false, "name":"Sample #7", "selectedTags":["playing"], "selectedBars":[1,3,5,7], "selectedSamples":[] },
+      {debug:false, "name":"Sample #8", "selectedTags":["playing"], "selectedBars":[0,2,4,6], "selectedSamples":[] },
+
+    ],
   },
+
+
 
   getters: {
 
@@ -313,7 +331,7 @@ const RecordCard = {
       <div class="btn-group" role="group" aria-label="Basic example">
 
        <button v-show="recording === false"   v-on:click="record" type="button" class="btn btn-secondary" title="Start Recording"><i class="fas fa-3x fa-microphone"></i></button>
- 
+
        <button   v-show="recording === true" v-on:click="save" type="button" class="btn btn-success" title="Stop Recording and Save"><i class="fas fa-3x fa-save"></i></button>
 
      </div>
@@ -393,18 +411,14 @@ const SampleCard = {
   template: `
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title">Sample Card</h4>
+      <h4 class="card-title" v-on:click="debug = !debug">{{name}}</h4>
       <p class="card-text">
 
       <form>
-
-
         <div class="form-row">
-
           <div class="col">
             <select multiple class="form-control" v-model="selectedTags">
                <option v-for="tag in tags">{{tag}}</option>
-
             </select>
           </div>
 
@@ -424,20 +438,21 @@ const SampleCard = {
       </form>
 
       </p>
-      <p class="card-text"><small class="text-muted">Total {{count}}</small></p>
+      <p class="card-text"><small v-show="debug" class="text-muted">{{ dump }}</small></p>
     </div>
   </div>
   `,
 
+  props: ['configuration'],
   data: function() {
-    return {
-        selectedTags: [],
-        selectedBars: [],
-        selectedSamples: [],
-    }
+    return this.configuration
   },
 
   computed: {
+
+    dump () {
+      return JSON.stringify(this.configuration, null);
+    },
 
     tags () {
       return this.$store.state.song.meta.tags
@@ -449,9 +464,9 @@ const SampleCard = {
       const repeat = count => {const response = []; for(var i=0;i<count;i++){response.push(i)}; return response;}
       return repeat(this.$store.state.song.meta.bars)
     },
-    count () {
-      return this.$store.state.sound.tags.length
-    },
+    // name () {
+    //   return this.configuration.name
+    // },
   },
 
   created() {
@@ -549,38 +564,40 @@ const app = new Vue({
     <div class="container">
 
     <div class="row py-3">
-    <div class="col py-3">
-    <div class="card-deck">
-      <progress-card></progress-card>
-      <measure-card></measure-card>
-    </div>
-    </div>
-    </div>
-
-    <div class="row py-3">
-    <div class="col py-3">
-    <div class="card-deck">
-      <tag-card></tag-card>
-      <record-card></record-card>
-    </div>
-    </div>
+      <div class="col py-3">
+        <div class="card-deck">
+          <progress-card></progress-card>
+          <measure-card></measure-card>
+        </div>
+      </div>
     </div>
 
     <div class="row py-3">
-    <div class="col py-3">
-    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
-    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
-    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
-    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
-    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
-    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
-    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
-    <div class="mb-3 pb-3"> <sample-card></sample-card> </div>
+      <div class="col py-3">
+        <div class="card-deck">
+          <tag-card></tag-card>
+          <record-card></record-card>
+        </div>
+      </div>
     </div>
+
+    <div class="row py-3">
+      <div class="col py-3">
+        <div v-for="instrument in instruments">
+          <div class="mb-3 pb-3">
+            <sample-card :configuration="instrument"></sample-card>
+          </div>
+        </div>
+      </div>
     </div>
 
     </div>
-  `
+  `,
+  computed: {
+    instruments () {
+      return this.$store.state.instruments;
+    },
+  }
 
 })
 //
