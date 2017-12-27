@@ -40,7 +40,7 @@ var mixerTrack = new Wad.Poly({
   tuna   : {
 
       Chorus : {
-          intensity: 0.8,  //0 to 1
+          intensity: 0.2,  //0 to 1
           rate: 4,         //0.001 to 8
           stereoPhase: 160,  //0 to 180
           bypass: 0
@@ -63,8 +63,8 @@ var mixerTrack = new Wad.Poly({
 
     var wad = new Wad({
         source       : file,
-        panning      : [0, 1, 10],
-        panningModel : 'HRTF',
+        panning      : -1,
+        //panningModel : 'HRTF',
         env     : {      // This is the ADSR envelope.
               attack  : 0.0,  // Time in seconds from onset to peak volume.  Common values for oscillators may range from 0.05 to 0.3.
               decay   : 3.0,  // Time in seconds from peak volume to sustain volume.
@@ -79,14 +79,14 @@ var mixerTrack = new Wad.Poly({
   const p2 = (file) => {
     var wad = new Wad({
         source       : file,
-        panning      : [10, 1, 0],
-        panningModel : 'HRTF',
+        panning      : 1,
+        //panningModel : 'HRTF',
         env     : {      // This is the ADSR envelope.
-              attack  : 0.0,  // Time in seconds from onset to peak volume.  Common values for oscillators may range from 0.05 to 0.3.
-              decay   : 1.0,  // Time in seconds from peak volume to sustain volume.
-              sustain : 1.0,  // Sustain volume level. This is a percent of the peak volume, so sensible values are between 0 and 1.
-              hold    : 3.14, // Time in seconds to maintain the sustain volume level. If this is not set to a lower value, oscillators must be manually stopped by calling their stop() method.
-              release : .4     // Time in seconds from the end of the hold period to zero volume, or from calling stop() to zero volume.
+          attack  : 0.0,  // Time in seconds from onset to peak volume.  Common values for oscillators may range from 0.05 to 0.3.
+          decay   : 3.0,  // Time in seconds from peak volume to sustain volume.
+          sustain : 0.0,  // Sustain volume level. This is a percent of the peak volume, so sensible values are between 0 and 1.
+          hold    : 1, // Time in seconds to maintain the sustain volume level. If this is not set to a lower value, oscillators must be manually stopped by calling their stop() method.
+          release : .4     // Time in seconds from the end of the hold period to zero volume, or from calling stop() to zero volume.
           },
     });
     mixerTrack.add(wad)
@@ -223,7 +223,7 @@ const ProgressCard = {
   template: `
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title">{{title}} <span class="text-muted">by {{author}}</span></h4>
+      <h4 class="card-title">{{title}} Pattern <span class="text-muted">by {{author}}</span></h4>
       <p class="card-text">
       <div class="progress">
         <div class="progress-bar progress-bar-striped progress-bar-animated pa-1" role="progressbar" :aria-valuenow="percent" aria-valuemin="0" aria-valuemax="100" :style="{ width: percent + '%' }"><span v-show="percent>9">{{percent}}%</span></div>
@@ -308,17 +308,16 @@ const RecordCard = {
   template: `
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title">Recorder</h4>
+      <h4 class="card-title">Wave Recorder</h4>
 
       <div class="btn-group" role="group" aria-label="Basic example">
 
        <button v-show="recording === false"   v-on:click="record" type="button" class="btn btn-secondary" title="Start Recording"><i class="fas fa-3x fa-microphone"></i></button>
-       <button v-show="recording" type="button" class="btn btn-danger" title="Recording in progress, click save when done"><i class="fas fa-3x fa-microphone"></i></button>
-
+ 
        <button   v-show="recording === true" v-on:click="save" type="button" class="btn btn-success" title="Stop Recording and Save"><i class="fas fa-3x fa-save"></i></button>
-       <button v-show="recording === false"   type="button" class="btn btn-secondary" title="Record something before saving"><i class="fas fa-3x fa-save"></i></button>
 
      </div>
+     <p class="card-text"><small v-show="recording" class="text-muted">{{fileName}}</small></p>
 
     </div>
   </div>
@@ -326,12 +325,14 @@ const RecordCard = {
   data: function() {
     return {
         recording: false,
+        fileName: `session-${(new Date).getTime()}.wav`,
     }
   },
   methods: {
 
     record: function () {
       this.recording = true;
+      this.fileName = `session-${(new Date).getTime()}.wav`;
       mixerTrack.rec.record()
       emitter.on('song-end', () => {
         if(this.recording) this.save();
@@ -341,6 +342,7 @@ const RecordCard = {
 
     save: function () {
       this.recording = false;
+      const fileName = this.fileName;
       mixerTrack.rec.exportWAV(function(wavBlob,x){
         console.log(wavBlob)
 
@@ -358,7 +360,7 @@ const RecordCard = {
 
         var buffer = new Buffer(reader.result, "binary");
 
-         fs.writeFile("test.wav", buffer, function(err) {
+         fs.writeFile(fileName, buffer, function(err) {
            if(err) {
              console.log("err", err);
            } else {
@@ -470,7 +472,7 @@ const SampleCard = {
       if(barMatch && tagMatch && this.selectedSamples.length){
 
         //this.selectedSamples.forEach(sample=>p1(sample))
-        p1(oneof(this.selectedSamples))
+        oneof([p1,p2])(oneof(this.selectedSamples))
 
 
       }
