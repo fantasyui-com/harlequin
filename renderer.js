@@ -13,6 +13,7 @@ const oneof = require('oneof');
 const path = require('path');
 class MyEmitter extends EventEmitter {}
 const emitter = new MyEmitter();
+emitter.setMaxListeners(100);
 
 const contains = (list,item) => list.indexOf(item) !== -1;
 
@@ -59,9 +60,10 @@ var mixerTrack = new Wad.Poly({
 
 
 
-  const p1 = (file) => {
+  const p1 = (file, options) => {
 
     var wad = new Wad({
+
         source       : file,
         panning      : -1,
         //panningModel : 'HRTF',
@@ -74,10 +76,12 @@ var mixerTrack = new Wad.Poly({
           },
     });
     mixerTrack.add(wad)
-    wad.play()
+    wad.play(options.play)
+    console.log(options.play)
   }
-  const p2 = (file) => {
+  const p2 = (file, options) => {
     var wad = new Wad({
+
         source       : file,
         panning      : 1,
         //panningModel : 'HRTF',
@@ -90,7 +94,8 @@ var mixerTrack = new Wad.Poly({
           },
     });
     mixerTrack.add(wad)
-    wad.play()
+    wad.play(options.play)
+    console.log(options.play)
   }
 
 //
@@ -163,20 +168,21 @@ const store = new Vuex.Store({
     sound:valkyrie.data[0],
     song: valkyrie,
     samples,
+    frequencies: Object.keys(Wad.pitches).map(note => ({ note, frequency:Wad.pitches[note]}) ),
     instruments:[
-      {"debug":false, "name":"Ambience","selectedTags":["playing"],"selectedBars":[0],"selectedSamples":["node_modules/ultrasonic/ambi_haunted_hum.flac","node_modules/ultrasonic/ambi_lunar_land.flac"]},
-      {"debug":false, "name":"Kick","selectedTags":["playing"],"selectedBars":["0","2","4","6"],"selectedSamples":["node_modules/ultrasonic/elec_blip.flac","node_modules/ultrasonic/elec_blip2.flac"]},
-      {"debug":false, "name":"Snare","selectedTags":["playing"],"selectedBars":[1,3,5,7],"selectedSamples":["node_modules/ultrasonic/bd_ada.flac","node_modules/ultrasonic/bd_fat.flac"]},
-      {"debug":false, "name":"Drums","selectedTags":["playing"],"selectedBars":[0,1,2,5,7],"selectedSamples":["node_modules/ultrasonic/bd_tek.flac","node_modules/ultrasonic/bd_zum.flac","node_modules/ultrasonic/drum_bass_hard.flac"]},
+      {"debug":false, "name":"Ambience","selectedTags":["playing"], "selectedFrequency":[400],"selectedBars":[0],"selectedSamples":["node_modules/ultrasonic/ambi_haunted_hum.flac","node_modules/ultrasonic/ambi_lunar_land.flac"]},
+      {"debug":false, "name":"Kick","selectedTags":["playing"], "selectedFrequency":[400],"selectedBars":["0","2","4","6"],"selectedSamples":["node_modules/ultrasonic/elec_blip.flac","node_modules/ultrasonic/elec_blip2.flac"]},
+      {"debug":false, "name":"Snare","selectedTags":["playing"], "selectedFrequency":[400],"selectedBars":[1,3,5,7],"selectedSamples":["node_modules/ultrasonic/bd_ada.flac","node_modules/ultrasonic/bd_fat.flac"]},
+      {"debug":false, "name":"Drums","selectedTags":["playing"], "selectedFrequency":[400],"selectedBars":[0,1,2,5,7],"selectedSamples":["node_modules/ultrasonic/bd_tek.flac","node_modules/ultrasonic/bd_zum.flac","node_modules/ultrasonic/drum_bass_hard.flac"]},
 
-      {"debug":false,"name":"Sample #1","selectedTags":["playing"],"selectedBars":[0,2,4,6],"selectedSamples":["node_modules/ultrasonic/elec_blup.flac","node_modules/ultrasonic/elec_fuzz_tom.flac","node_modules/ultrasonic/elec_plip.flac","node_modules/ultrasonic/elec_tick.flac","node_modules/ultrasonic/elec_twip.flac","node_modules/ultrasonic/misc_crow.flac"]},
-      {debug:false, "name":"Sample #2", "selectedTags":["playing"], "selectedBars":[0,2,4,6], "selectedSamples":[] },
-      {debug:false, "name":"Sample #3", "selectedTags":["playing"], "selectedBars":[1,3,5,7], "selectedSamples":[] },
-      {debug:false, "name":"Sample #4", "selectedTags":["playing"], "selectedBars":[0,2,4,6], "selectedSamples":[] },
-      {debug:false, "name":"Sample #5", "selectedTags":["playing"], "selectedBars":[1,3,5,7], "selectedSamples":[] },
-      {debug:false, "name":"Sample #6", "selectedTags":["playing"], "selectedBars":[0,2,4,6], "selectedSamples":[] },
-      {debug:false, "name":"Sample #7", "selectedTags":["playing"], "selectedBars":[1,3,5,7], "selectedSamples":[] },
-      {debug:false, "name":"Sample #8", "selectedTags":["playing"], "selectedBars":[0,2,4,6], "selectedSamples":[] },
+      {"debug":false,"name":"Sample #1","selectedTags":["playing"], "selectedFrequency":[400],"selectedBars":[0,2,4,6],"selectedSamples":["node_modules/ultrasonic/elec_blup.flac","node_modules/ultrasonic/elec_fuzz_tom.flac","node_modules/ultrasonic/elec_plip.flac","node_modules/ultrasonic/elec_tick.flac","node_modules/ultrasonic/elec_twip.flac","node_modules/ultrasonic/misc_crow.flac"]},
+      {debug:false, "name":"Sample #2", "selectedTags":["playing"], "selectedFrequency":[400], "selectedBars":[0,2,4,6], "selectedSamples":[] },
+      {debug:false, "name":"Sample #3", "selectedTags":["playing"], "selectedFrequency":[400], "selectedBars":[1,3,5,7], "selectedSamples":[] },
+      {debug:false, "name":"Sample #4", "selectedTags":["playing"], "selectedFrequency":[400], "selectedBars":[0,2,4,6], "selectedSamples":[] },
+      {debug:false, "name":"Sample #5", "selectedTags":["playing"], "selectedFrequency":[400], "selectedBars":[1,3,5,7], "selectedSamples":[] },
+      {debug:false, "name":"Sample #6", "selectedTags":["playing"], "selectedFrequency":[400], "selectedBars":[0,2,4,6], "selectedSamples":[] },
+      {debug:false, "name":"Sample #7", "selectedTags":["playing"], "selectedFrequency":[400], "selectedBars":[1,3,5,7], "selectedSamples":[] },
+      {debug:false, "name":"Sample #8", "selectedTags":["playing"], "selectedFrequency":[400], "selectedBars":[0,2,4,6], "selectedSamples":[] },
 
     ],
   },
@@ -434,6 +440,12 @@ const SampleCard = {
             </select>
           </div>
 
+          <div class="col">
+            <select multiple class="form-control" v-model="selectedFrequency">
+               <option v-for="entry in frequencies" :value="entry.note">{{entry.note}}:{{entry.frequency}}</option>
+            </select>
+          </div>
+
         </div>
       </form>
 
@@ -456,6 +468,9 @@ const SampleCard = {
 
     tags () {
       return this.$store.state.song.meta.tags
+    },
+    frequencies () {
+      return this.$store.state.frequencies
     },
     samples () {
       return this.$store.state.samples.data
@@ -487,28 +502,15 @@ const SampleCard = {
       if(barMatch && tagMatch && this.selectedSamples.length){
 
         //this.selectedSamples.forEach(sample=>p1(sample))
-        oneof([p1,p2])(oneof(this.selectedSamples))
+        const options = {play:{}}
+
+        if (this.selectedFrequency.length){
+          options.play.detune = 1900
+        }
+        oneof([p1,p2])(oneof(  this.selectedSamples), options)
 
 
       }
-      // console.log(JSON.stringify( beat ));
-
-      // if(beat.bar)
-      //
-      // if(beat.bar === 0) p2('perc_snap');
-      // if(beat.bar === 1) p1('bass_drop_c');
-      // if(beat.bar === 2) p2('perc_snap2');
-      // if(beat.bar === 3) p1('elec_filt_snare');
-      //
-      // if(beat.bar === 1) p1('elec_pop');
-      // if(beat.bar === 2) p2('elec_pop');
-      //
-      // if( beat.bar === 0 && contains(beat.tags, 'open') ) p1('bass_hard_c');
-      // if( beat.bar === 1 && contains(beat.tags, 'dings') ) p1('tabla_ghe2');
-      // if( beat.bar === 2 && contains(beat.tags, 'dings') ) p2('tabla_ghe3');
-      // if( beat.bar === 3 && contains(beat.tags, 'dings') ) p1('tabla_ghe4');
-      //
-      // if( contains(beat.tags, 'rise') ) p1('tabla_ghe4');
 
 
     });
