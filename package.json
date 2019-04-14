@@ -20,7 +20,7 @@
   "dependencies": {
     "electron": "^1.8.7",
     "oneof": "^1.0.1",
-    "ultrasonic": "^1.0.1",
+    "ultrasonic": "^1.1.0",
     "web-audio-daw": "^2.8.0"
   }
 }
