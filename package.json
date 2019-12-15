@@ -21,6 +21,6 @@
     "electron": "^5.0.12",
     "oneof": "^1.1.0",
     "ultrasonic": "^1.1.0",
-    "web-audio-daw": "^4.6.0"
+    "web-audio-daw": "^4.7.0"
   }
 }
